@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="230.0" prefWidth="429.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CustomerController">
+   <children>
+      <Button fx:id="bookSpace" layoutY="126.0" mnemonicParsing="false" onAction="#bookParking" prefHeight="105.0" prefWidth="142.0" text="Book Space" />
+      <Button fx:id="cancelBooking" layoutX="142.0" layoutY="126.0" mnemonicParsing="false" onAction="#removeBooking" prefHeight="105.0" prefWidth="142.0" text="Cancel Booking" />
+      <Button fx:id="viewBooking" layoutX="284.0" layoutY="126.0" mnemonicParsing="false" onAction="#viewParking" prefHeight="105.0" prefWidth="142.0" text="View Bookings" />
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#signOut" text="Logout" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Button fx:id="pay" layoutX="284.0" mnemonicParsing="false" onAction="#pay" prefHeight="105.0" prefWidth="142.0" text="Pay" />
+   </children>
+</AnchorPane>

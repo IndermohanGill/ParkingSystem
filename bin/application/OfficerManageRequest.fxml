@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="307.0" prefWidth="742.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.OfficerManageRequestController">
+   <children>
+      <Button fx:id="decline" layoutX="514.0" layoutY="62.0" mnemonicParsing="false" onAction="#decline" text="Decline" />
+      <Button fx:id="grant" layoutX="188.0" layoutY="62.0" mnemonicParsing="false" onAction="#accept" text="Grant" />
+      <TableView fx:id="tableView" layoutY="134.0" prefHeight="173.0" prefWidth="742.0">
+         <columns>
+            <TableColumn fx:id="bID" prefWidth="121.0" text="Booking ID" />
+            <TableColumn fx:id="bTime" prefWidth="121.0" text="Booking Time" />
+            <TableColumn fx:id="eTime" prefWidth="121.0" text="Expiry Time" />
+            <TableColumn fx:id="slot" prefWidth="121.0" text="Parking Space" />
+            <TableColumn fx:id="plate" prefWidth="121.0" text="Licence Plate" />
+            <TableColumn fx:id="granted" prefWidth="68.0" text="Granted" />
+            <TableColumn fx:id="paid" prefWidth="68.0" text="Paid" />
+         </columns>
+      </TableView>
+      <Button fx:id="cancel" layoutY="1.0" mnemonicParsing="false" onAction="#cancel" text="Cancel" />
+   </children>
+</AnchorPane>

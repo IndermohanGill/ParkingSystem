@@ -1,0 +1,3 @@
+Location,Booking ID,Booking Time,Expiry Time,E-Mail,Licence Plate,Granted,Paid,Payment Status,Duration
+50,IiSn0gnJ,+999999999-12-31T23:59:59.999999999,+999999999-12-31T23:59:59.999999999,inder19@my.yorku.ca,HELLO,false,false,false,100
+400,DkiFC5kb,2021-05-03T23:39:31.518857,2021-05-04T00:29:31.518888,inder19@my.yorku.ca,HELLO,true,true,true,50
